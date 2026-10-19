@@ -1,0 +1,60 @@
+{
+  "name": "url-web-preview",
+  "displayName": "小说地址阅读器",
+  "description": "输入小说地址，自动识别正文页或列表页，并在 VS Code 中阅读。",
+  "version": "0.0.1",
+  "publisher": "local",
+  "engines": {
+    "vscode": "^1.90.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "main": "./extension.js",
+  "activationEvents": [
+    "onCommand:urlWebPreview.open",
+    "onView:urlWebPreview.readerView"
+  ],
+  "contributes": {
+    "viewsContainers": {
+      "activitybar": [
+        {
+          "id": "urlWebPreviewSidebar",
+          "title": "小说阅读",
+          "icon": "media/book.svg"
+        }
+      ]
+    },
+    "views": {
+      "urlWebPreviewSidebar": [
+        {
+          "id": "urlWebPreview.readerView",
+          "name": "地址阅读",
+          "type": "webview"
+        }
+      ]
+    },
+    "commands": [
+      {
+        "command": "urlWebPreview.open",
+        "title": "小说地址阅读器: 打开地址",
+        "category": "小说地址阅读器"
+      }
+    ],
+    "keybindings": [
+      {
+        "command": "urlWebPreview.open",
+        "key": "ctrl+alt+p",
+        "mac": "cmd+alt+p",
+        "when": "editorTextFocus"
+      }
+    ]
+  },
+  "scripts": {
+    "lint": "node scripts/check-syntax.js",
+    "test": "npm run lint"
+  },
+  "dependencies": {
+    "jszip": "^3.10.1"
+  }
+}
