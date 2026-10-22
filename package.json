@@ -52,7 +52,9 @@
   },
   "scripts": {
     "lint": "node scripts/check-syntax.js",
-    "test": "npm run lint"
+    "test": "npm run lint",
+    "package:vsix": "npx @vscode/vsce package",
+    "publish:marketplace": "npx @vscode/vsce publish"
   },
   "dependencies": {
     "jszip": "^3.10.1"
