@@ -1,8 +1,8 @@
 {
   "name": "url-web-preview",
-  "displayName": "小说地址阅读器",
-  "description": "输入小说地址，自动识别正文页或列表页，并在 VS Code 中阅读。",
-  "version": "0.0.1",
+  "displayName": "小小说",
+  "description": "输入网址或书名，在 VS Code 中搜索并阅读小说。",
+  "version": "0.0.16",
   "publisher": "local",
   "engines": {
     "vscode": "^1.90.0"
@@ -20,7 +20,7 @@
       "activitybar": [
         {
           "id": "urlWebPreviewSidebar",
-          "title": "小说阅读",
+          "title": "小小说",
           "icon": "media/book.svg"
         }
       ]
@@ -29,7 +29,7 @@
       "urlWebPreviewSidebar": [
         {
           "id": "urlWebPreview.readerView",
-          "name": "地址阅读",
+          "name": "小小说",
           "type": "webview"
         }
       ]
@@ -37,8 +37,8 @@
     "commands": [
       {
         "command": "urlWebPreview.open",
-        "title": "小说地址阅读器: 打开地址",
-        "category": "小说地址阅读器"
+        "title": "小小说: 打开网址或搜索书名",
+        "category": "小小说"
       }
     ],
     "keybindings": [
