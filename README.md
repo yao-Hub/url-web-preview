@@ -18,6 +18,7 @@
 - `qidian.com`
 - `alicesw.com`
 - `books.l3zc.com`
+- `xbookcn.net`
 
 其中 `alicesw.com` 已按你给出的规则处理：
 
