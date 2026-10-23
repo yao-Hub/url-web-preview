@@ -13,12 +13,3 @@
 搜索结果中，点击书名会优先打开章节目录；点击“开始阅读”可直接进入正文。阅读页顶部和底部都提供上一章、目录、下一章。
 
 也可以通过命令面板运行 `小小说: 打开网址或搜索书名`。
-
-## 已适配站点
-
-- `quanben.io`
-- `kadokado.com.tw`
-- `qidian.com`
-- `alicesw.com`
-- `books.l3zc.com`
-- `xbookcn.net`

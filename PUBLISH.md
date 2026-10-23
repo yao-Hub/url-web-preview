@@ -11,7 +11,7 @@ npm run package:vsix
 在 VS Code 扩展面板右上角选择 `...` -> `从 VSIX 安装...`，选择生成的 `.vsix` 文件。也可以在 PowerShell 中安装：
 
 ```powershell
-code --install-extension .\url-web-preview-0.0.24.vsix
+code --install-extension .\url-web-preview-0.0.29.vsix
 ```
 
 安装后重新打开 VS Code，不需要再按 `F5`。
@@ -20,7 +20,7 @@ code --install-extension .\url-web-preview-0.0.24.vsix
 
 1. 登录 <https://marketplace.visualstudio.com/manage>。
 2. 创建 Publisher，记下 Publisher ID。
-3. 将 `package.json` 中的 `"publisher": "local"` 改成你的 Publisher ID。
+3. 当前 `package.json` 中的 Publisher ID 已设置为 `xiaoxiaoshuo`。
 4. 在 Azure DevOps 创建 Personal Access Token，授予 Marketplace 的 `Manage` 权限。
 5. 在 PowerShell 中设置令牌，不要将令牌写入仓库：
 
