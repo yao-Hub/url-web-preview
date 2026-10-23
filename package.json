@@ -2,7 +2,7 @@
   "name": "url-web-preview",
   "displayName": "小小说",
   "description": "输入网址或书名，在 VS Code 中搜索并阅读小说。",
-  "version": "0.0.16",
+  "version": "0.0.24",
   "publisher": "local",
   "engines": {
     "vscode": "^1.90.0"

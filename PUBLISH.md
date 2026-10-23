@@ -11,7 +11,7 @@ npm run package:vsix
 在 VS Code 扩展面板右上角选择 `...` -> `从 VSIX 安装...`，选择生成的 `.vsix` 文件。也可以在 PowerShell 中安装：
 
 ```powershell
-code --install-extension .\url-web-preview-0.0.16.vsix
+code --install-extension .\url-web-preview-0.0.24.vsix
 ```
 
 安装后重新打开 VS Code，不需要再按 `F5`。

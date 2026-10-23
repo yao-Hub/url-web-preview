@@ -16,6 +16,7 @@
 
 ## 已适配站点
 
+- `quanben.io`
 - `kadokado.com.tw`
 - `qidian.com`
 - `alicesw.com`
